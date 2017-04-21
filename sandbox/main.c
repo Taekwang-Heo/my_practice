@@ -20,6 +20,11 @@
  * code.
  */
 
+void delay(uint32_t tick)
+{
+	while (tick--);
+}
+
 int main(void)
 {
   DAVE_STATUS_t status;
