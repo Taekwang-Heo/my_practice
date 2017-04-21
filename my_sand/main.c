@@ -1,7 +1,7 @@
 /*
  * main.c
  *
- *  Created on: 2017 Apr 21 20:44:36
+ *  Created on: 2017 Apr 22 00:46:49
  *  Author: ARCLAB
  */
 
@@ -19,11 +19,6 @@
  * invoking the APP initialization dispatcher routine - DAVE_Init() and hosting the place-holder for user application
  * code.
  */
-
-void delay(uint32_t tick)
-{
-	while (tick--);
-}
 
 int main(void)
 {
@@ -45,7 +40,6 @@ int main(void)
   /* Placeholder for user application code. The while loop below can be replaced with user application code. */
   while(1U)
   {
-	  delay(13000000);
-	  delay(15000000);
+
   }
 }
