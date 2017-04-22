@@ -1,7 +1,7 @@
 /*
  * main.c
  *
- *  Created on: 2017 Apr 22 00:46:49
+ *  Created on: 2017 Apr 22 17:40:28
  *  Author: ARCLAB
  */
 
@@ -19,11 +19,6 @@
  * invoking the APP initialization dispatcher routine - DAVE_Init() and hosting the place-holder for user application
  * code.
  */
-
-int i = 7;
-int j = 10;
-int k = 5;
-int asd = 100;
 
 int main(void)
 {
