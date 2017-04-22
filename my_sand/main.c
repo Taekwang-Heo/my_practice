@@ -21,6 +21,8 @@
  */
 
 int i = 7;
+int j = 10;
+int k = 5;
 
 int main(void)
 {
