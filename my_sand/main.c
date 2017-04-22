@@ -20,6 +20,8 @@
  * code.
  */
 
+int i = 7;
+
 int main(void)
 {
   DAVE_STATUS_t status;
