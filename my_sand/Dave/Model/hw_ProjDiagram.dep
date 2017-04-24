@@ -4,6 +4,1499 @@
   <link>
     <businessObjects href="ModelConfigData.data#/"/>
   </link>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0"/>
+    <properties key="APP_NAME_ID" value="GLOBAL_CCU8/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="261" height="91" x="220" y="325">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="221" height="91" x="20" style="//@styles.0/@styles.3" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" outgoingConnections="//@connections.1 //@connections.2 //@connections.3" referencedGraphicsAlgorithm="//@children.0/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ccu8_global"/>
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" outgoingConnections="//@connections.4 //@connections.5 //@connections.6" referencedGraphicsAlgorithm="//@children.0/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ccu8_global_start"/>
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="220" y="68"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.0/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="clock_ccu"/>
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_clk"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="59"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="241" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_CCU8"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="219" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="GLOBAL_CCU8_0">
+          <properties key="AppInstanceLabel" value="GLOBAL_CCU8_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ccu8_global"/>
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_globalsignal"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu8_global"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ccu8_global_start"/>
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="48"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_gsc_enable"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="125" height="20" x="110" y="63" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ccu8_global_start"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="clock_ccu"/>
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_clk"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="39"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_clk"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="76" height="20" x="25" y="54" style="//@styles.0/@styles.2" value="clock_ccu"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0"/>
+    <properties key="APP_NAME_ID" value="CLOCK_XMC4/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="161" height="221" x="20" y="260">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="121" height="221" x="20" style="//@styles.0/@styles.3" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="external_clock_pin"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_extclkpin"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" outgoingConnections="//@connections.0" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="clk_ccu_output"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_fccu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="70"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="clk_perbridge_output"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_fpb"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="90"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="clk_external_output"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_extclk"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="110"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="osc_hp_watchdog_trap"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_sysoscwd_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="130"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="system_vco_lock_trap"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_sysvcolock_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="150"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="usb_vco_lock_trap"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_usbvcolock_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="170"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.1/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="osc_ulp_watchdog_trap"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_ulpwdg_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="120" y="190"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="141" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="119" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="CLOCK_XMC4"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="119" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="CLOCK_XMC4_0">
+          <properties key="AppInstanceLabel" value="CLOCK_XMC4_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="external_clock_pin"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_extclkpin"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_extclkpin"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="45" horizontalAlignment="ALIGNMENT_RIGHT" value="external_clock_pin"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="clk_ccu_output"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_fccu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="50"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_fccu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="65" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="clk_ccu_output"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="clk_perbridge_output"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_fpb"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="70"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_fpb"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="85" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="clk_perbridge_output"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="clk_external_output"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_extclk"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="90"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_extclk"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="105" horizontalAlignment="ALIGNMENT_RIGHT" value="clk_external_output"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="osc_hp_watchdog_trap"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_sysoscwd_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="110"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_sysoscwd_trap"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="95" height="20" x="40" y="125" horizontalAlignment="ALIGNMENT_RIGHT" value="osc_hp_watchdog_trap"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="system_vco_lock_trap"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_sysvcolock_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="130"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_sysvcolock_trap"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="145" horizontalAlignment="ALIGNMENT_RIGHT" value="system_vco_lock_trap"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="usb_vco_lock_trap"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_usbvcolock_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="150"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_usbvcolock_trap"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="165" horizontalAlignment="ALIGNMENT_RIGHT" value="usb_vco_lock_trap"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="osc_ulp_watchdog_trap"/>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_ulpwdg_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="170"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0/vs_ulpwdg_trap"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="30" y="185" horizontalAlignment="ALIGNMENT_RIGHT" value="osc_ulp_watchdog_trap"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0"/>
+    <properties key="APP_NAME_ID" value="PWM_SVM/0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="281" height="701" x="540" y="20">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="2" transparency="0.0" width="241" height="701" x="20" style="//@styles.0/@styles.3" cornerHeight="5" cornerWidth="5"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.1" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_global_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.2" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_global_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="65"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.3" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_global_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="80"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.4" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_external_start"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="110"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.5" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_external_start"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="125"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.6" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_external_start"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="140"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="current_trigger_external_start"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="155"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="170"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="185"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="trigger_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="215"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_high_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phu_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="230"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_low_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phu_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="245"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_high_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phv_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="260"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_low_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phv_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="275"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_high_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phw_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="290"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_low_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phw_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="305"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="inverter_enable_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_inverter"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="320"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="adc_trigger_global_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="95"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="200"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="PhaseU_High Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phu_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="335"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="PhaseV_High Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phv_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="350"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="PhaseW_High Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phw_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="365"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="PhaseU_Low Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phu_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="380"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="PhaseV_Low Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phv_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="395"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="PhaseW_Low Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phw_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="410"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="Inverter Enable Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_inverter"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="425"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="Trap Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="-20" y="440"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_u_period/one_match"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="50"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_v_period/one_match"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="65"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_w_period/one_match"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="80"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_trigger_period/one_match"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="95"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_u_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="110"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_v_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="125"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_w_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="155"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_current_trigger_compare_match1_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="185"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_u_compare_match2_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="201"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_v_compare_match2_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="216"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_w_compare_match2_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="231"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_current_trigger_compare_match2_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="246"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_u_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="261"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_v_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="276"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_w_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="291"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_trigger_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="306"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="321"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="336"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="365"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="adc_trigger_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="395"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_ch2_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="410"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_ch2_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="425"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_ch2_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="440"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="adc_trigger_ch2_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="455"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_slice_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="470"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_slice_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="485"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_slice_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="500"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="trigger_slice Status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="515"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="530"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="545"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="560"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_op_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="575"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_op_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="590"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_u_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="605"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="620"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="635"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_op_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="650"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_op_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="665"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="trap_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.4" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="680"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_v_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_cmds_cmus_cmpch1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="140"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="event_ph_w_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_cmds_cmus_cmpch1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="170"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_v_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_sta_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="350"/>
+    </anchors>
+    <anchors xsi:type="pi:BoxRelativeAnchor" active="true" referencedGraphicsAlgorithm="//@children.2/@graphicsAlgorithm/@graphicsAlgorithmChildren.0">
+      <properties key="SignalName" value="ph_w_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_sta_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.2" lineStyle="UNSPECIFIED" width="20" height="10" x="240" y="380"/>
+    </anchors>
+    <children visible="true">
+      <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0">
+        <points x="20" y="40"/>
+        <points x="261" y="40"/>
+      </graphicsAlgorithm>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="241" height="20" x="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="239" height="20" x="2" style="//@styles.0/@styles.0" horizontalAlignment="ALIGNMENT_CENTER" value="PWM_SVM"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="241" height="20" x="20" y="20"/>
+      <children visible="true">
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="239" height="20" x="2" style="//@styles.0/@styles.1" horizontalAlignment="ALIGNMENT_CENTER" value="PWM_SVM_0">
+          <properties key="AppInstanceLabel" value="PWM_SVM_0"/>
+        </graphicsAlgorithm>
+      </children>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_u_global_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="45" style="//@styles.0/@styles.2" value="ph_u_global_signal"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_v_global_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="45"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="60" style="//@styles.0/@styles.2" value="ph_v_global_signal"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_w_global_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="60"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="75" style="//@styles.0/@styles.2" value="ph_w_global_signal"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_u_external_start"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="90"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="105" style="//@styles.0/@styles.2" value="ph_u_external_start"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_v_external_start"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="105"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="120" style="//@styles.0/@styles.2" value="ph_v_external_start"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_w_external_start"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="120"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="135" style="//@styles.0/@styles.2" value="ph_w_external_start"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="current_trigger_external_start"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="135"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="150" value="current_trigger_external_start"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_u_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="150"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="165" style="//@styles.0/@styles.2" value="ph_u_trap"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_v_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="165"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="180" style="//@styles.0/@styles.2" value="ph_v_trap"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="trigger_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="195"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="210" value="trigger_trap"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_u_high_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phu_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="210"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phu_high"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="225" style="//@styles.0/@styles.2" value="ph_u_high_pad"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_u_low_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phu_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="225"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phu_low"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="240" style="//@styles.0/@styles.2" value="ph_u_low_pad"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_v_high_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phv_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="240"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phv_high"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="255" style="//@styles.0/@styles.2" value="ph_v_high_pad"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_v_low_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phv_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="255"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phv_low"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="270" style="//@styles.0/@styles.2" value="ph_v_low_pad"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_w_high_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phw_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="270"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phw_high"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="285" style="//@styles.0/@styles.2" value="ph_w_high_pad"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_w_low_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phw_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="285"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_phw_low"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="300" style="//@styles.0/@styles.2" value="ph_w_low_pad"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="inverter_enable_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_inverter"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="300"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_inverter"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="315" style="//@styles.0/@styles.2" value="inverter_enable_pad"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="adc_trigger_global_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="75"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="90" value="adc_trigger_global_signal"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_w_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="180"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp2_unsync_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="195" style="//@styles.0/@styles.2" value="ph_w_trap"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="PhaseU_High Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phu_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="315"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phu_high"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="330" style="//@styles.0/@styles.2" value="PhaseU_High Pin_signal"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="PhaseV_High Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phv_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="330"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phv_high"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="345" style="//@styles.0/@styles.2" value="PhaseV_High Pin_signal"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="PhaseW_High Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phw_high"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="345"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phw_high"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="360" style="//@styles.0/@styles.2" value="PhaseW_High Pin_signal"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="PhaseU_Low Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phu_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="360"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phu_low"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="375" style="//@styles.0/@styles.2" value="PhaseU_Low Pin_signal"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="PhaseV_Low Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phv_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="375"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phv_low"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="390" style="//@styles.0/@styles.2" value="PhaseV_Low Pin_signal"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="PhaseW_Low Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phw_low"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="390"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_phw_low"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="405" style="//@styles.0/@styles.2" value="PhaseW_Low Pin_signal"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="Inverter Enable Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_inverter"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="405"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_inverter"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="420" style="//@styles.0/@styles.2" value="Inverter Enable Pin_signal"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="Trap Pin_signal"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="420"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/__pin_vs_pwm_svm_pin_trap"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="96" height="20" x="25" y="435" style="//@styles.0/@styles.2" value="Trap Pin_signal"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_u_period/one_match"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="30"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="45" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_u_period/one_match"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_v_period/one_match"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="45"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="60" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_v_period/one_match"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_w_period/one_match"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="60"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="75" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_w_period/one_match"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_trigger_period/one_match"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="75"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pmus_omds_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="90" horizontalAlignment="ALIGNMENT_RIGHT" value="event_trigger_period/one_match"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_u_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="90"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="105" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_u_compare_match_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_v_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="105"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="120" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_v_compare_match_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_w_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="135"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="150" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_w_compare_match_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_current_trigger_compare_match1_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="165"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch1_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="180" horizontalAlignment="ALIGNMENT_RIGHT" value="event_current_trigger_compare_match1_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_u_compare_match2_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="181"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="196" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_u_compare_match2_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_v_compare_match2_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="196"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="211" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_v_compare_match2_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_w_compare_match2_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="211"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="226" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_w_compare_match2_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_current_trigger_compare_match2_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="226"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_cmds_cmus_cmpch2_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="241" horizontalAlignment="ALIGNMENT_RIGHT" value="event_current_trigger_compare_match2_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_u_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="241"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="256" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_u_trap"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_v_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="256"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="271" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_v_trap"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_w_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="271"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="286" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_w_trap"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_trigger_trap"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="286"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_e2as_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="301" horizontalAlignment="ALIGNMENT_RIGHT" value="event_trigger_trap"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_u_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="301"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="316" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_u_ch_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_v_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="316"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="331" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_v_ch_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_w_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="345"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="360" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_w_ch_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="adc_trigger_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="375"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_sta_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="390" horizontalAlignment="ALIGNMENT_RIGHT" value="adc_trigger_ch_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_u_ch2_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="390"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="405" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_u_ch2_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_v_ch2_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="405"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="420" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_v_ch2_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_w_ch2_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="420"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="435" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_w_ch2_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="adc_trigger_ch2_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="435"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_stb_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="450" horizontalAlignment="ALIGNMENT_RIGHT" value="adc_trigger_ch2_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_u_slice_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="450"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="465" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_u_slice_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_v_slice_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="465"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="480" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_v_slice_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_w_slice_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="480"/>
+    </children>
+    <children visible="true">
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="495" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_w_slice_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="trigger_slice Status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="495"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_st_currenttrig"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="510" horizontalAlignment="ALIGNMENT_RIGHT" value="trigger_slice Status"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_u_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="510"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="525" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_u_high"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_v_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="525"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="540" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_v_high"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_w_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="540"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="555" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_w_high"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_v_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_op_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="555"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_op_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="570" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_v_high"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_w_high"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_op_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="570"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out0_op_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="585" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_w_high"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_u_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phu"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="585"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phu"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="600" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_u_low"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_v_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="600"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="615" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_v_low"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="ph_w_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="615"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="630" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_w_low"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_v_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_op_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="630"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_op_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="645" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_v_low"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_w_low"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_op_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="645"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_out1_op_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="660" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_w_low"/>
+    </children>
+    <children active="true">
+      <properties key="SignalName" value="trap_pad"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_trap"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="660"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_pin_trap"/>
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="675" style="//@styles.0/@styles.2" horizontalAlignment="ALIGNMENT_RIGHT" value="trap_pad"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_v_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_cmds_cmus_cmpch1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="120"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_cmds_cmus_cmpch1_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="135" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_v_compare_match_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="event_ph_w_compare_match_up/down"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_cmds_cmus_cmpch1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="150"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_cmds_cmus_cmpch1_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="165" horizontalAlignment="ALIGNMENT_RIGHT" value="event_ph_w_compare_match_up/down"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_v_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_sta_phv"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="330"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_sta_phv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="345" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_v_ch_status"/>
+    </children>
+    <children visible="true" active="true">
+      <properties key="SignalName" value="ph_w_ch_status"/>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_sta_phw"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="20" height="10" x="-20" y="360"/>
+    </children>
+    <children>
+      <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_op_sta_phw"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="20" x="150" y="375" horizontalAlignment="ALIGNMENT_RIGHT" value="ph_w_ch_status"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="junctionPoint"/>
+    <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="6" height="6" x="497" y="87">
+      <graphicsAlgorithmChildren xsi:type="al:Ellipse" background="//@colors.5" foreground="//@colors.5" lineWidth="1" transparency="0.0" width="5" height="5"/>
+    </graphicsAlgorithm>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="junctionPoint"/>
+    <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="6" height="6" x="497" y="102">
+      <graphicsAlgorithmChildren xsi:type="al:Ellipse" background="//@colors.5" foreground="//@colors.5" lineWidth="1" transparency="0.0" width="5" height="5"/>
+    </graphicsAlgorithm>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="junctionPoint"/>
+    <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="6" height="6" x="517" y="147">
+      <graphicsAlgorithmChildren xsi:type="al:Ellipse" background="//@colors.5" foreground="//@colors.5" lineWidth="1" transparency="0.0" width="5" height="5"/>
+    </graphicsAlgorithm>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="junctionPoint"/>
+    <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="6" height="6" x="517" y="162">
+      <graphicsAlgorithmChildren xsi:type="al:Ellipse" background="//@colors.5" foreground="//@colors.5" lineWidth="1" transparency="0.0" width="5" height="5"/>
+    </graphicsAlgorithm>
+  </children>
+  <styles background="//@colors.1" lineWidth="2" lineVisible="true" transparency="0.0" id="COMMON-VALUES" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+    <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="APP_NAME" font="//@fonts.0"/>
+    <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="APP_INST_NAME" font="//@fonts.1"/>
+    <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="SIGNAL_NAME" font="//@fonts.0"/>
+    <styles lineStyle="UNSPECIFIED" filled="true" id="E-CLASS" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+      <renderingStyle>
+        <adaptedGradientColoredAreas definedStyleId="blue-white-gloss" gradientType="0">
+          <adaptedGradientColoredAreas styleAdaption="0">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="248" green="251" blue="254"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="248" green="251" blue="254"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="237" green="245" blue="252"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="237" green="245" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="222" green="237" blue="250"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="222" green="237" blue="250"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="212" green="231" blue="248"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="250" green="251" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="226" green="229" blue="233"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="226" green="229" blue="233"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="1">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="238" green="246" blue="253"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="238" green="246" blue="253"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="208" green="230" blue="249"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="208" green="230" blue="249"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="172" green="210" blue="244"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="172" green="210" blue="244"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="129" green="185" blue="234"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="170" green="208" blue="242"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="154" green="191" blue="224"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="154" green="191" blue="224"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="2">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="245" green="249" blue="254"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="245" green="249" blue="254"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="1">
+                <color red="226" green="239" blue="252"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="226" green="239" blue="252"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="2">
+                <color red="203" green="227" blue="249"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="203" green="227" blue="249"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="3">
+                <color red="187" green="218" blue="247"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="197" green="224" blue="247"/>
+              </end>
+            </gradientColor>
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="2">
+                <color red="178" green="205" blue="229"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="178" green="205" blue="229"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="3">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="153" green="204"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="51" green="153" blue="102"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+          <adaptedGradientColoredAreas styleAdaption="4">
+            <gradientColor>
+              <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                <color red="255" green="204"/>
+              </start>
+              <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                <color red="255" green="102"/>
+              </end>
+            </gradientColor>
+          </adaptedGradientColoredAreas>
+        </adaptedGradientColoredAreas>
+      </renderingStyle>
+    </styles>
+  </styles>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.1" end="//@children.0/@anchors.2">
+    <properties key="uri" value="http://resources/4.1.12/app/GLOBAL_CCU8/0/http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_clock_fccu/http://resources/4.1.12/app/GLOBAL_CCU8/0/vs_global_ccu8_clk"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="200" y="335"/>
+    <bendpoints x="200" y="389"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.2/@anchors.0">
+    <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/http://resources/4.0.18/app/PWM_SVM/0/vs_global_ccu8_global/http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phu"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="500" y="380"/>
+    <bendpoints x="500" y="75"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.2/@anchors.1">
+    <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/http://resources/4.0.18/app/PWM_SVM/0/vs_global_ccu8_global/http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phv"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="500" y="380"/>
+    <bendpoints x="500" y="90"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.2/@anchors.2">
+    <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/http://resources/4.0.18/app/PWM_SVM/0/vs_global_ccu8_global/http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_globalsignal_phw"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="500" y="380"/>
+    <bendpoints x="500" y="105"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.1" end="//@children.2/@anchors.3">
+    <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/http://resources/4.0.18/app/PWM_SVM/0/vs_global_ccu8_gsc_enable/http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phu"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="520" y="398"/>
+    <bendpoints x="520" y="135"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.1" end="//@children.2/@anchors.4">
+    <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/http://resources/4.0.18/app/PWM_SVM/0/vs_global_ccu8_gsc_enable/http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phv"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="520" y="398"/>
+    <bendpoints x="520" y="150"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.1" end="//@children.2/@anchors.5">
+    <properties key="uri" value="http://resources/4.0.18/app/PWM_SVM/0/http://resources/4.0.18/app/PWM_SVM/0/vs_global_ccu8_gsc_enable/http://resources/4.0.18/app/PWM_SVM/0/vs_pwm_svm_gp0_unsync_phw"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3"/>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polyline" background="//@colors.5" foreground="//@colors.5" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.3">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+    <bendpoints x="520" y="398"/>
+    <bendpoints x="520" y="165"/>
+  </connections>
   <colors red="227" green="238" blue="249"/>
   <colors red="255" green="255" blue="255"/>
+  <colors/>
+  <colors red="128" green="128" blue="128"/>
+  <colors red="192" green="192" blue="192"/>
+  <colors green="127"/>
+  <fonts name="Arial" size="8"/>
+  <fonts name="Arial" size="8" bold="true"/>
 </pi:Diagram>
