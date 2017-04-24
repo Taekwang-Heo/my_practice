@@ -25,6 +25,7 @@ int j = 10;
 int k = 5;
 int asd = 100;
 int asdfas = 11;
+int aaaaa = 100;
 
 int main(void)
 {
